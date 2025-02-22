@@ -17,5 +17,6 @@
 body {
   color: var(--foreground);
   background: var(--background);
+  background-image: url('/hand-drawn-aesthetic-blue-background-vector.jpg');
   @apply font-serif;
 }

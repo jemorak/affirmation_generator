@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export default function Home() {
-  const [affirmation, setAffirmation] = useState('');
+  const [affirmation, setAffirmation] = useState('Click "Generate" to see an affirmation');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
 
@@ -30,17 +30,16 @@ export default function Home() {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen font-display">
-      <main className="flex flex-col items-center justify-center">
-        <h1>Affirmations Generator</h1>
-        <h2>Click 'Generate' to generate an affirmation</h2>
-        <div className="border-4 border-black rounded-md p-10 m-5  text-center bg-emerald-50">
+    <div className="flex flex-col items-center justify-center min-h-screen font-display bg-[url(/watercolor-blue-background.avif)]">
+      <main className="border-4 border-blue-950 rounded-3xl p-10 m-6 bg-white flex flex-col items-center justify-center">
+        <h1 className="font-bold text-xl">Affirmations Generator</h1>
+        <div className="font-semibold border-4 border-black rounded-md p-10 m-5  text-center bg-emerald-50">
           
-          {loading ? <p>Loading...</p> : <p>{affirmation}</p>}
+          {loading ? <p>Loading...</p> : <p>"{affirmation}"</p>}
           {error && <p className="text-red-500">{error}</p>}
         </div>
         <button 
-          className="border-2 border-black rounded-md p-5 m-5 bg-green-300 hover:bg-green-500"
+          className="font-semibold border-2 border-black rounded-md p-5 m-5 bg-blue-300 hover:bg-blue-500 hover:text-white"
           onClick={handleClick}
           disabled={loading}
         >
