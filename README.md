@@ -53,7 +53,3 @@ To avoid **CORS issues**, this app uses a **Next.js API route** (`/api/affirmati
 ## 📌 Future Improvements
 - Add **animations** (e.g., fade-in and floating objects effects)
 - Save affirmations to **local storage**
-
-## 📜 License
-This project is open-source and available under the **MIT License**.
-
