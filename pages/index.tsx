@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import { useState } from "react";
 
 export default function Home() {
@@ -30,9 +31,10 @@ export default function Home() {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen font-display bg-[url(/watercolor-blue-background.avif)]">
+    <div className="flex flex-col items-center justify-center min-h-screen font-display">
       <main className="border-4 border-blue-950 rounded-3xl p-10 m-6 bg-white flex flex-col items-center justify-center">
         <h1 className="font-bold text-xl">Affirmations Generator</h1>
+       
         <div className="font-semibold border-4 border-black rounded-md p-10 m-5  text-center bg-emerald-50">
           
           {loading ? <p>Loading...</p> : <p>"{affirmation}"</p>}
