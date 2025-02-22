@@ -8,7 +8,7 @@ A simple affirmation generator built with **Next.js**, **Tailwind CSS**. The app
 - Responsive and clean **blue-themed UI**
 
 ## 📸 Screenshot
-![Affirmation Generator Preview](public/screenshot.png)
+![image](https://github.com/user-attachments/assets/a3fcd3cd-35c1-4cc7-ace9-eef84c213a77)
 
 ## 🚀 Getting Started
 ### 1️⃣ Clone the repository
