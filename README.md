@@ -1,4 +1,4 @@
-# 🌊 Affirmation Generator
+# 💠 Affirmation Generator
 
 A simple affirmation generator built with **Next.js**, **Tailwind CSS**. The app features a soothing **blue-themed UI** and fetches positive affirmations to uplift your day! 🌟
 
